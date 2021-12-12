@@ -20,7 +20,14 @@ int getint()
 			cin.clear();
 			cin.ignore(32767, '\n');
 		}
-		else return a;
+		else
+		{
+			if (a <= 0)
+			{
+				cout << "You add invalid vallue" << endl;
+			}
+			else return a;
+		}
 	}
 }
 
@@ -37,6 +44,11 @@ double getdouble()
 		{
 			cin.clear();
 			cin.ignore(32767, '\n');
+		}
+		else 
+			if (a <= 0)
+		{
+			cout << "You add invalid vallue" << endl;
 		}
 		else return a;
 	}
@@ -57,6 +69,7 @@ struct tovar
 	string name;
 	double price;
 	int vallue;
+	int period;
 };
 
 void save(string file, tovar store)
@@ -64,7 +77,7 @@ void save(string file, tovar store)
 	ofstream fout;
 	fout.open(file, ofstream::app);
 	fout << store.name << " " << store.section << " " << store.price << " " << store.vallue << " ";
-	fout << store.info.day << " " << store.info.month << " " << store.info.year << endl;
+	fout << store.info.day << " " << store.info.month << " " << store.info.year << " " << store.period << endl;
 	fout.close();
 }
 
@@ -80,8 +93,8 @@ void add(tovar* store, int* store_info, string file)
 	if (store_info[0] == 0)
 	{
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 5);
-		cout << "There if noone product, input at least one" << endl;
-		Sleep(800);
+		cout << "There is noone product, input at least one" << endl;
+		Sleep(1000);
 		system("cls");
 		cout << "Add name" << endl;
 		cin >> store[0].name;
@@ -93,10 +106,22 @@ void add(tovar* store, int* store_info, string file)
 		store[0].vallue = getint();
 		cout << "Add day" << endl;
 		store[0].info.day = getint();
-		cout << "Add month" << endl;
+		while (store[0].info.day > 31)
+		{
+			cout << "Invalid data" << endl;
+			store[0].info.day = getint();
+		}
+		cout << "Add month (format xx)" << endl;
 		cin >> store[0].info.month;
+		while ((stoi(store[0].info.month) > 12) || (stoi(store[0].info.month) < 1))
+		{
+			cout << "Invalid data" << endl;
+			cin >> store[0].info.month;
+		}
 		cout << "Add year" << endl;
 		store[0].info.year = getint();
+		cout << "Add period" << endl;
+		store[0].period = getint();
 		save(file, store[store_info[1]]);
 		store_info[1]++;
 		system("cls");
@@ -121,10 +146,22 @@ void add(tovar* store, int* store_info, string file)
 			store_tmp[i].vallue = getint();
 			cout << "Add day" << endl;
 			store_tmp[i].info.day = getint();
-			cout << "Add month" << endl;
+			while (store_tmp[i].info.day > 31)
+			{
+				cout << "Invalid data" << endl;
+				store[0].info.day = getint();
+			}
+			cout << "Add month (format xx)" << endl;
 			cin >> store_tmp[i].info.month;
+			while ((stoi(store_tmp[i].info.month) > 12) || (stoi(store[0].info.month) < 1))
+			{
+				cout << "Invalid data" << endl;
+				cin >> store_tmp[i].info.month;
+			}
 			cout << "Add year" << endl;
 			store_tmp[i].info.year = getint();
+			cout << "Add period" << endl;
+			store[0].period = getint();
 			system("cls");
 		}
 		for (int i = 0; i < n; i++)
@@ -178,7 +215,7 @@ void load(tovar* store, string file, int* store_info)
 		while (!fin.eof())
 		{
 
-			int ost = i % 7;
+			int ost = i % 8;
 			switch (ost)
 			{
 				case (0):
@@ -231,6 +268,14 @@ void load(tovar* store, string file, int* store_info)
 					fin >> d;
 					store[j].info.year = stoi(d);
 					i++;
+					break;
+				}
+				case(7):
+				{
+					string d;
+					fin >> d;
+					store[j].period = stoi(d);
+					i++;
 					j++;
 					break;
 				}
@@ -259,6 +304,7 @@ void print(tovar* store, int* store_info)
 			cout << "Section: " << store[i].section << endl;
 			cout << "Vallue:\t" << store[i].vallue << endl;
 			cout << "Date:\t" << store[i].info.day << " / " << store[i].info.month << " / " << store[i].info.year << endl;
+			cout << "Period:\t" << store[i].period << endl;
 			cout << "=====================================================================================" << endl;
 			k = 1;
 		}
@@ -290,6 +336,7 @@ void find_section(tovar* store, int* store_info)
 			cout << "Price: " << store[i].price << endl;
 			cout << "Vallue: " << store[i].vallue << endl;
 			cout << "Date: " << store[i].info.day << " / " << store[i].info.month << " / " << store[i].info.year << endl;
+			cout << "Period:\t" << store[i].period << endl;
 			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 2);
 			cout << "=================================================================" << "\n" << endl;
 			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
@@ -341,9 +388,39 @@ void find_vallue(tovar* store, int* store_info)
 	system("pause");
 }
 
+void raschet(tovar* store, int* store_info, date today)
+{
+	system("cls");
+	tovar* store_trash = new tovar[store_info[1]];
+	int k = 0;
+	//определить разницу в датах
+	for (int i = 0; i < store_info[1]; i++)
+	{
+		if ((stoi(today.month) * 30.5 + today.day + store[i].info.year ) > (store[i].info.day + stoi(store[i].info.month) * 30.5 + store[i].period + store[i].info.year))
+		{
+			store_trash[k] = store[i];
+				k++;
+		}
+	}
+	if (k == 0) cout << "There are no expired products" << endl;
+	else
+	{
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 2);
+		cout << "_______________ Expired products ________________" << endl;
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 4);
+		for (int i = 0; i < k + 1; i++)
+		{
+			cout << store_trash[i].name << endl;
+		}
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
+	}
+	system("pause");
+}
+
 int main()
 {
 	ofstream fout;
+	date today;
 	tovar* store = new tovar[10000];
 	string file = "Save.txt", key = "Key.txt";
 	int* store_info = new int[2];
@@ -351,7 +428,10 @@ int main()
 	store_info[1] = 0; // Количество разных товаров
 	load(store, file, store_info);
 	int solution = 0;
-	while (solution != 6)
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 2);
+	cin >> today.day >> today.month >> today.year;
+	system("cls");
+	while (solution != 7)
 	{
 		system("cls");
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 5);
@@ -375,11 +455,15 @@ int main()
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 4);
 		cout << "===================================================" << endl;
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 5);
-		cout << "Clear datebase...................................5" << endl;
+		cout << "Find expired products............................5" << endl;
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 4);
 		cout << "===================================================" << endl;
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 5);
-		cout << "Exit with program................................6" << endl;
+		cout << "Clear datebase...................................6" << endl;
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 4);
+		cout << "===================================================" << endl;
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 5);
+		cout << "Exit with program................................7" << endl;
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 4);
 		cout << "===================================================" << endl;
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);
@@ -409,19 +493,26 @@ int main()
 			}
 			case 5:
 			{
-				fout.open(file);
-				fout.close();
-				fout.open(key);
-				fout.close();
-				system("cls");
+				raschet(store, store_info, today);
 				break;
 			}
 			case 6:
 			{
-				solution = 6;
+				fout.open(file);
+				fout.close();
+				fout.open(key);
+				fout.close();
+				store = new tovar[10000];
+				system("cls");
+				break;
+			}
+			case 7:
+			{
+				solution = 7;
 				SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 				break;
 			}
 		}
 	}
+	cout << "Input date (today- xx xx xxxx): " << endl;
 }
