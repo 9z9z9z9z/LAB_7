@@ -1,72 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T12:44:18.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="K638KQAE95KdN3meA76N" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-02T19:20:14.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="KOFeDf380gn_v05aWFZ0" version="17.5.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1749" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="G2stVCMQUNgM3_AraCT1-92" value="class:Menu" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-92" value="class:Menu" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="80" width="100" height="1800" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-95" value="class:Tools" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-95" value="class:Tools" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="80" width="100" height="1070" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-98" value="открыть &quot;Tools&quot;" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.53;exitY=0.047;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-92">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-98" value="открыть &quot;Tools&quot;" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.53;exitY=0.047;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-92" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="175" y="162.79999999999995" as="sourcePoint" />
             <mxPoint x="350" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-100" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-100" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="50" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-103" value="open menu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-103" value="open menu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="70" y="140" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-104" value="class:Settings" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-104" value="class:Settings" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="301.25" y="1390" width="100" height="490" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-285" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;" edge="1" parent="G2stVCMQUNgM3_AraCT1-104">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-285" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;" parent="G2stVCMQUNgM3_AraCT1-104" edge="1">
           <mxGeometry x="-0.0286" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="48.75" y="440" as="sourcePoint" />
             <mxPoint x="-131.25" y="440" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-106" value="class:Play local &#xa;files" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-106" value="class:Play local &#xa;files" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="1150" width="100" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-108" value="открыть Settings " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.488;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="G2stVCMQUNgM3_AraCT1-104">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-108" value="открыть Settings " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.488;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="G2stVCMQUNgM3_AraCT1-104" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="170" y="1450" as="sourcePoint" />
             <mxPoint x="332.07" y="1450.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-112" value="class:Party Mode" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=40;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-112" value="class:Party Mode" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=40;" parent="1" vertex="1">
           <mxGeometry x="441.25" y="80" width="98.75" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-121" value="website:Internet" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-121" value="website:Internet" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="80" width="100" height="1070" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-166" value="&lt;font style=&quot;font-size: 12px&quot;&gt;присоединиться к группе и вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;" edge="1" parent="G2stVCMQUNgM3_AraCT1-121">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-166" value="&lt;font style=&quot;font-size: 12px&quot;&gt;присоединиться к группе и вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;" parent="G2stVCMQUNgM3_AraCT1-121" edge="1">
           <mxGeometry x="-0.2294" y="-12" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="173.5" y="350" as="sourcePoint" />
             <mxPoint x="-431" y="350" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-245" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="G2stVCMQUNgM3_AraCT1-121">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-245" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="G2stVCMQUNgM3_AraCT1-121" vertex="1">
           <mxGeometry x="-170" y="710" width="221.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-236" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="G2stVCMQUNgM3_AraCT1-121">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-236" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="G2stVCMQUNgM3_AraCT1-121" vertex="1">
           <mxGeometry x="-170" y="660" width="221.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-240" value="&lt;span&gt;Checking_Internet_&lt;/span&gt;&lt;span&gt;connection&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="G2stVCMQUNgM3_AraCT1-121">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-240" value="&lt;span&gt;Checking_Internet_&lt;/span&gt;&lt;span&gt;connection&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="G2stVCMQUNgM3_AraCT1-121" vertex="1">
           <mxGeometry x="-50" y="660" width="90" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-258" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="G2stVCMQUNgM3_AraCT1-121">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-258" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="G2stVCMQUNgM3_AraCT1-121" vertex="1">
           <mxGeometry x="-171.25" y="930" width="222.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-261" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.272;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="G2stVCMQUNgM3_AraCT1-121" source="G2stVCMQUNgM3_AraCT1-258" target="G2stVCMQUNgM3_AraCT1-258">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-261" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.272;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" parent="G2stVCMQUNgM3_AraCT1-121" source="G2stVCMQUNgM3_AraCT1-258" target="G2stVCMQUNgM3_AraCT1-258" edge="1">
           <mxGeometry x="0.0004" y="-4" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-549.06" y="883" as="sourcePoint" />
             <mxPoint x="-110" y="960" as="targetPoint" />
@@ -74,35 +74,35 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-262" value="&lt;font&gt;&lt;font style=&quot;font-size: 6px&quot;&gt;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; text-align: left&quot;&gt;availability&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: inherit ; text-align: left&quot;&gt;of similar&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; text-align: left&quot;&gt;&amp;nbsp;on the internet&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="G2stVCMQUNgM3_AraCT1-121">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-262" value="&lt;font&gt;&lt;font style=&quot;font-size: 6px&quot;&gt;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; text-align: left&quot;&gt;availability&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: inherit ; text-align: left&quot;&gt;of similar&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; text-align: left&quot;&gt;&amp;nbsp;on the internet&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="G2stVCMQUNgM3_AraCT1-121" vertex="1">
           <mxGeometry x="-55" y="930" width="100" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-123" value="class:Change &#xa;Theme" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-123" value="class:Change &#xa;Theme" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="440.63" y="1620" width="100" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-310" value="&lt;span style=&quot;font-size: 12px&quot;&gt;поменять тему&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;entryX=0.524;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="G2stVCMQUNgM3_AraCT1-123">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-310" value="&lt;span style=&quot;font-size: 12px&quot;&gt;поменять тему&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;entryX=0.524;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" parent="G2stVCMQUNgM3_AraCT1-123" edge="1">
           <mxGeometry x="-0.0286" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="49.370000000000005" y="141" as="sourcePoint" />
             <mxPoint x="-91.00000000000006" y="140.78999999999996" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-126" value="class:Change &#xa;Language" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-126" value="class:Change &#xa;Language" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="1390" width="100" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-287" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="G2stVCMQUNgM3_AraCT1-126">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-287" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="G2stVCMQUNgM3_AraCT1-126" vertex="1">
           <mxGeometry x="-10" y="89.28" width="220.94" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-288" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="G2stVCMQUNgM3_AraCT1-126" source="G2stVCMQUNgM3_AraCT1-289" target="G2stVCMQUNgM3_AraCT1-287">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-288" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" parent="G2stVCMQUNgM3_AraCT1-126" source="G2stVCMQUNgM3_AraCT1-289" target="G2stVCMQUNgM3_AraCT1-287" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-920" y="-1379.72" as="sourcePoint" />
             <mxPoint x="-870" y="-1429.72" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-289" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid&amp;nbsp; local filles&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="G2stVCMQUNgM3_AraCT1-126">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-289" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid&amp;nbsp; local filles&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="G2stVCMQUNgM3_AraCT1-126" vertex="1">
           <mxGeometry x="50" y="89.27999999999997" width="50" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-290" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="G2stVCMQUNgM3_AraCT1-126" source="G2stVCMQUNgM3_AraCT1-287">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-290" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" parent="G2stVCMQUNgM3_AraCT1-126" source="G2stVCMQUNgM3_AraCT1-287" edge="1">
           <mxGeometry x="0.0018" y="-5" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-680" y="-1435.72" as="sourcePoint" />
             <mxPoint x="50" y="109" as="targetPoint" />
@@ -110,108 +110,108 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-292" value="&lt;span style=&quot;font-size: 12px&quot;&gt;поменять язык&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.5;exitY=0.569;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.524;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="G2stVCMQUNgM3_AraCT1-126">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-292" value="&lt;span style=&quot;font-size: 12px&quot;&gt;поменять язык&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.5;exitY=0.569;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.524;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" parent="G2stVCMQUNgM3_AraCT1-126" edge="1">
           <mxGeometry x="-0.0286" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210.94000000000005" y="150.00000000000006" as="sourcePoint" />
             <mxPoint x="-86.66000000000014" y="150.79000000000002" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-284" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.482;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="G2stVCMQUNgM3_AraCT1-126">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-284" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.482;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;" parent="G2stVCMQUNgM3_AraCT1-126" edge="1">
           <mxGeometry x="-0.0286" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="50.00249999999977" y="170.20000000000027" as="sourcePoint" />
             <mxPoint x="-267.55" y="170" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-129" value="class:Start Party" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=40;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-129" value="class:Start Party" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=40;" parent="1" vertex="1">
           <mxGeometry x="720" y="80" width="110" height="1800" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-161" value="&lt;span&gt;class:&lt;/span&gt;Join To Party" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="G2stVCMQUNgM3_AraCT1-129">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-161" value="&lt;span&gt;class:&lt;/span&gt;Join To Party" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=1;" parent="G2stVCMQUNgM3_AraCT1-129" vertex="1">
           <mxGeometry y="230" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-158" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.495;exitY=0.425;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-112" target="G2stVCMQUNgM3_AraCT1-129">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-158" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.495;exitY=0.425;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-112" target="G2stVCMQUNgM3_AraCT1-129" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="230" as="sourcePoint" />
             <mxPoint x="340" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-160" value="&lt;span style=&quot;font-size: 12px&quot;&gt;выбрать &quot;начать проигрывать композицию&quot;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" vertex="1" connectable="0" parent="G2stVCMQUNgM3_AraCT1-158">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-160" value="&lt;span style=&quot;font-size: 12px&quot;&gt;выбрать &quot;начать проигрывать композицию&quot;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" parent="G2stVCMQUNgM3_AraCT1-158" vertex="1" connectable="0">
           <mxGeometry x="0.1904" y="1" relative="1" as="geometry">
             <mxPoint x="-40" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-159" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;entryX=0.514;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-129" target="G2stVCMQUNgM3_AraCT1-92">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-159" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;entryX=0.514;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-129" target="G2stVCMQUNgM3_AraCT1-92" edge="1">
           <mxGeometry x="-0.2294" y="-12" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="340" as="sourcePoint" />
             <mxPoint x="170" y="281" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-164" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.493;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-112">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-164" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.493;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-112" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="370" as="sourcePoint" />
             <mxPoint x="775" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-165" value="&lt;span style=&quot;font-size: 12px&quot;&gt;выбрать &quot;присоединиться проигрывать композицию&quot;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" vertex="1" connectable="0" parent="G2stVCMQUNgM3_AraCT1-164">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-165" value="&lt;span style=&quot;font-size: 12px&quot;&gt;выбрать &quot;присоединиться проигрывать композицию&quot;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=6;" parent="G2stVCMQUNgM3_AraCT1-164" vertex="1" connectable="0">
           <mxGeometry x="0.1904" y="1" relative="1" as="geometry">
             <mxPoint x="-40" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-116" value="class:Creating &#xa;Lyrics Mode" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-116" value="class:Creating &#xa;Lyrics Mode" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="448.44" y="660" width="84.37" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-118" value="выбрать &quot;Creating Lyrics&#xa; Mode&quot;" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.9;exitY=0.288;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="G2stVCMQUNgM3_AraCT1-116">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-118" value="выбрать &quot;Creating Lyrics&#xa; Mode&quot;" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.9;exitY=0.288;exitDx=0;exitDy=0;exitPerimeter=0;" parent="G2stVCMQUNgM3_AraCT1-116" edge="1">
           <mxGeometry x="0.063" relative="1" as="geometry">
             <mxPoint x="-97" y="70.00000000000011" as="sourcePoint" />
             <mxPoint x="41.56" y="70" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-244" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.482;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="G2stVCMQUNgM3_AraCT1-116">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-244" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.482;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;" parent="G2stVCMQUNgM3_AraCT1-116" edge="1">
           <mxGeometry x="-0.0286" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="41.922499999999786" y="200.20000000000005" as="sourcePoint" />
             <mxPoint x="-275.63" y="200" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-250" value="&lt;font style=&quot;font-size: 10px&quot;&gt;показать на экран текст композиции&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.5;exitY=0.26;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.487;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="G2stVCMQUNgM3_AraCT1-116">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-250" value="&lt;font style=&quot;font-size: 10px&quot;&gt;показать на экран текст композиции&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.5;exitY=0.26;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.487;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;" parent="G2stVCMQUNgM3_AraCT1-116" edge="1">
           <mxGeometry x="-0.0286" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="203.12" y="180.80000000000018" as="sourcePoint" />
             <mxPoint x="42.42875000000015" y="180.18000000000006" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-114" value="class:Searching &#xa;Mode" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-114" value="class:Searching &#xa;Mode" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="441.25" y="440" width="101.25" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-141" value="выбрать Searching Mode" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.5;exitY=0.392;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-95">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-141" value="выбрать Searching Mode" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.5;exitY=0.392;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-95" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="351.8173684210525" y="496.35000000000014" as="sourcePoint" />
             <mxPoint x="490" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-173" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.482;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-114">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-173" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.482;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-114" edge="1">
           <mxGeometry x="-0.0286" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="640" as="sourcePoint" />
             <mxPoint x="171.25" y="640" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-215" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-215" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="570" width="221.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-216" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-217" target="G2stVCMQUNgM3_AraCT1-215">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-216" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-217" target="G2stVCMQUNgM3_AraCT1-215" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="411.25" y="650" as="sourcePoint" />
             <mxPoint x="461.25" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-217" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid checking&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-217" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid checking&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="492.5" y="570" width="50" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-218" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-215">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-218" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-215" edge="1">
           <mxGeometry x="0.0004" y="-4" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="651.25" y="594" as="sourcePoint" />
             <mxPoint x="490" y="590" as="targetPoint" />
@@ -219,71 +219,71 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-219" value="&lt;font style=&quot;font-size: 6px&quot;&gt;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; text-align: left&quot;&gt;availability on the internet&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-219" value="&lt;font style=&quot;font-size: 6px&quot;&gt;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; text-align: left&quot;&gt;availability on the internet&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="550" y="570" width="90" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-220" value="&lt;font style=&quot;font-size: 10px&quot;&gt;запустить композицию&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;entryX=0.487;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-121" target="G2stVCMQUNgM3_AraCT1-114">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-220" value="&lt;font style=&quot;font-size: 10px&quot;&gt;запустить композицию&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;entryX=0.487;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-121" target="G2stVCMQUNgM3_AraCT1-114" edge="1">
           <mxGeometry x="-0.0286" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="640.0000000000002" as="sourcePoint" />
             <mxPoint x="500" y="621" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-119" value="class: Similar &#xa;Searching Mode" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-119" value="class: Similar &#xa;Searching Mode" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="442.5" y="889" width="97.5" height="501" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-263" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.482;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="G2stVCMQUNgM3_AraCT1-119">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-263" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.482;exitY=0.91;exitDx=0;exitDy=0;exitPerimeter=0;" parent="G2stVCMQUNgM3_AraCT1-119" edge="1">
           <mxGeometry x="-0.0286" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="47.552499999999725" y="200.20000000000027" as="sourcePoint" />
             <mxPoint x="-270.00000000000006" y="200" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-264" value="&lt;font style=&quot;font-size: 10px&quot;&gt;показать на экран текст композиции&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.5;exitY=0.26;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.487;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="G2stVCMQUNgM3_AraCT1-119">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-264" value="&lt;font style=&quot;font-size: 10px&quot;&gt;показать на экран текст композиции&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.5;exitY=0.26;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.487;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;" parent="G2stVCMQUNgM3_AraCT1-119" edge="1">
           <mxGeometry x="-0.0286" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="208.75" y="180.80000000000018" as="sourcePoint" />
             <mxPoint x="48.05875000000009" y="180.18000000000006" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-260" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid checking&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="G2stVCMQUNgM3_AraCT1-119">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-260" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid checking&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="G2stVCMQUNgM3_AraCT1-119" vertex="1">
           <mxGeometry x="47.5" y="121" width="50" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-142" value="выбрать&quot;Similar Searching&#xa;Mode&quot;" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.512;exitY=0.82;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-95" target="G2stVCMQUNgM3_AraCT1-119">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-142" value="выбрать&quot;Similar Searching&#xa;Mode&quot;" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.512;exitY=0.82;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-95" target="G2stVCMQUNgM3_AraCT1-119" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="355.25" y="960" as="sourcePoint" />
             <mxPoint x="480" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-140" value="выбрать party mode" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.518;exitY=0.084;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.494;entryY=0.257;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-95" target="G2stVCMQUNgM3_AraCT1-112">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-140" value="выбрать party mode" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.518;exitY=0.084;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.494;entryY=0.257;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-95" target="G2stVCMQUNgM3_AraCT1-112" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="351.25" y="166.79999999999995" as="sourcePoint" />
             <mxPoint x="491.25" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-265" value="base:local files" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-265" value="base:local files" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="1150" width="100" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-268" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.482;exitY=0.301;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.716;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-265" target="G2stVCMQUNgM3_AraCT1-92">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-268" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.482;exitY=0.301;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.716;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-265" target="G2stVCMQUNgM3_AraCT1-92" edge="1">
           <mxGeometry x="-0.0286" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="487.5524999999998" y="1420.2000000000003" as="sourcePoint" />
             <mxPoint x="170" y="1420" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-269" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-269" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="1230" width="361.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-270" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-271" target="G2stVCMQUNgM3_AraCT1-269">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-270" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-271" target="G2stVCMQUNgM3_AraCT1-269" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-479.69" y="-239" as="sourcePoint" />
             <mxPoint x="-429.69" y="-289" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-271" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid&amp;nbsp; local filles&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-271" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid&amp;nbsp; local filles&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="351.25" y="1230" width="50" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-272" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-269">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-272" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-269" edge="1">
           <mxGeometry x="0.0004" y="-4" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-239.69" y="-295" as="sourcePoint" />
             <mxPoint x="351.2500000000002" y="1250" as="targetPoint" />
@@ -291,38 +291,38 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-273" value="&lt;span&gt;Checking_local_ files&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-273" value="&lt;span&gt;Checking_local_ files&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="464.06" y="1230" width="68.75" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-276" value="остановить композицию" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.5;exitY=0.734;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-106" target="G2stVCMQUNgM3_AraCT1-265">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-276" value="остановить композицию" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.5;exitY=0.734;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-106" target="G2stVCMQUNgM3_AraCT1-265" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="1320" as="sourcePoint" />
             <mxPoint x="530.94" y="1339.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-275" value="&lt;span style=&quot;font-size: 12px&quot;&gt;проигрывать&amp;nbsp; композицию&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;entryX=0.524;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-265" target="G2stVCMQUNgM3_AraCT1-106">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-275" value="&lt;span style=&quot;font-size: 12px&quot;&gt;проигрывать&amp;nbsp; композицию&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;entryX=0.524;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-265" target="G2stVCMQUNgM3_AraCT1-106" edge="1">
           <mxGeometry x="-0.0286" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="651.25" y="1299.9999999999998" as="sourcePoint" />
             <mxPoint x="350" y="1300" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-94" value="открыть &quot;Play local files&quot;" style="verticalAlign=bottom;endArrow=block;entryX=0.494;entryY=0.222;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.524;exitY=0.624;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-92" target="G2stVCMQUNgM3_AraCT1-106">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-94" value="открыть &quot;Play local files&quot;" style="verticalAlign=bottom;endArrow=block;entryX=0.494;entryY=0.222;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.524;exitY=0.624;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-92" target="G2stVCMQUNgM3_AraCT1-106" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="170" y="1210" as="sourcePoint" />
             <mxPoint x="339.9999999999999" y="1210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-286" value="открыть Change Language" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.494;entryY=0.316;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.499;exitY=0.149;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-104" target="G2stVCMQUNgM3_AraCT1-126">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-286" value="открыть Change Language" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.494;entryY=0.316;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.499;exitY=0.149;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-104" target="G2stVCMQUNgM3_AraCT1-126" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="281.2" y="1504.9199999999998" as="sourcePoint" />
             <mxPoint x="461.24999999999994" y="1504.7" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-291" value="&lt;span&gt;Checking_local_ files&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-291" value="&lt;span&gt;Checking_local_ files&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="550" y="1479.28" width="68.75" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-239" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.528;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-236" target="G2stVCMQUNgM3_AraCT1-116">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-239" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.528;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-236" target="G2stVCMQUNgM3_AraCT1-116" edge="1">
           <mxGeometry x="0.0004" y="-4" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="651.25" y="764" as="sourcePoint" />
             <mxPoint x="351.2500000000002" y="760.0000000000001" as="targetPoint" />
@@ -330,22 +330,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-238" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid&amp;nbsp;&lt;/font&gt;internet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-238" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid&amp;nbsp;&lt;/font&gt;internet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="490" y="740" width="50" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-237" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-238" target="G2stVCMQUNgM3_AraCT1-236">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-237" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-238" target="G2stVCMQUNgM3_AraCT1-236" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="411.25" y="820" as="sourcePoint" />
             <mxPoint x="461.25" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-293" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-293" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="520" width="221.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-294" value="&lt;span&gt;Checking_Internet_&lt;/span&gt;&lt;span&gt;connection&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-294" value="&lt;span&gt;Checking_Internet_&lt;/span&gt;&lt;span&gt;connection&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="550" y="520" width="90" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-295" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.528;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-293">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-295" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.528;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-293" edge="1">
           <mxGeometry x="0.0004" y="-4" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="651.25" y="544" as="sourcePoint" />
             <mxPoint x="492.9873600000001" y="540.2800000000002" as="targetPoint" />
@@ -353,22 +353,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-296" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid&amp;nbsp;&lt;/font&gt;internet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-296" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid&amp;nbsp;&lt;/font&gt;internet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="490" y="520" width="50" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-297" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-296" target="G2stVCMQUNgM3_AraCT1-293">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-297" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-296" target="G2stVCMQUNgM3_AraCT1-293" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="411.25" y="600" as="sourcePoint" />
             <mxPoint x="461.25" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-298" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-298" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="180" width="221.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-299" value="&lt;span&gt;Checking_Internet_&lt;/span&gt;&lt;span&gt;connection&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-299" value="&lt;span&gt;Checking_Internet_&lt;/span&gt;&lt;span&gt;connection&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="550" y="180" width="90" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-300" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.528;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-298">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-300" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.528;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-298" edge="1">
           <mxGeometry x="0.0004" y="-4" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="651.25" y="204" as="sourcePoint" />
             <mxPoint x="492.9873600000001" y="200.2800000000002" as="targetPoint" />
@@ -376,28 +376,28 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-301" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid&amp;nbsp;&lt;/font&gt;internet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-301" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid&amp;nbsp;&lt;/font&gt;internet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="490" y="180" width="50" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-302" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-301" target="G2stVCMQUNgM3_AraCT1-298">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-302" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-301" target="G2stVCMQUNgM3_AraCT1-298" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="411.25" y="260" as="sourcePoint" />
             <mxPoint x="461.25" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-249" value="&lt;font style=&quot;font-size: 6px&quot;&gt;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; text-align: left&quot;&gt;availability on the internet&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-249" value="&lt;font style=&quot;font-size: 6px&quot;&gt;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; text-align: left&quot;&gt;availability on the internet&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="550" y="790" width="90" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-247" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid checking&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-247" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid checking&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="490" y="790" width="50" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-246" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-247" target="G2stVCMQUNgM3_AraCT1-245">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-246" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-247" target="G2stVCMQUNgM3_AraCT1-245" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="411.25" y="870" as="sourcePoint" />
             <mxPoint x="461.25" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-248" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.499;entryY=0.649;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-245" target="G2stVCMQUNgM3_AraCT1-116">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-248" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.499;entryY=0.649;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-245" target="G2stVCMQUNgM3_AraCT1-116" edge="1">
           <mxGeometry x="0.0004" y="-4" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="651.25" y="814" as="sourcePoint" />
             <mxPoint x="351.2500000000002" y="810" as="targetPoint" />
@@ -405,13 +405,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-304" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-304" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="970" width="221.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-305" value="&lt;span&gt;Checking_Internet_&lt;/span&gt;&lt;span&gt;connection&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-305" value="&lt;span&gt;Checking_Internet_&lt;/span&gt;&lt;span&gt;connection&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="550" y="970" width="90" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-306" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.528;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-304">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-306" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 6px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;error message&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.997;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.528;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-304" edge="1">
           <mxGeometry x="0.0004" y="-4" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="651.25" y="994" as="sourcePoint" />
             <mxPoint x="492.9873600000001" y="990.2800000000002" as="targetPoint" />
@@ -419,52 +419,52 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-307" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid&amp;nbsp;&lt;/font&gt;internet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-307" value="&lt;font style=&quot;font-size: 6px&quot;&gt;invalid&amp;nbsp;&lt;/font&gt;internet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="490" y="970" width="50" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-308" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-307" target="G2stVCMQUNgM3_AraCT1-304">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-308" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-307" target="G2stVCMQUNgM3_AraCT1-304" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="411.25" y="1050" as="sourcePoint" />
             <mxPoint x="461.25" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-309" value="открыть Change Theme" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.494;entryY=0.316;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.499;exitY=0.149;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-309" value="открыть Change Theme" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.494;entryY=0.316;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.499;exitY=0.149;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="351.2499999999999" y="1680.33" as="sourcePoint" />
             <mxPoint x="489.5000000000001" y="1679.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-312" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-312" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="150" y="1860" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-313" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-313" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="331.25" y="1860" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-314" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-314" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="470" y="1860" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-315" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-315" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="630" y="1860" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-317" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-317" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="755" y="1860" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-320" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=6;" vertex="1" parent="1">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-320" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=6;" parent="1" vertex="1">
           <mxGeometry x="60" y="130" width="10" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-321" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.173;exitY=0.61;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-320">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-321" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0.173;exitY=0.61;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-320" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="160" as="sourcePoint" />
             <mxPoint x="170" y="158" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-259" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G2stVCMQUNgM3_AraCT1-260" target="G2stVCMQUNgM3_AraCT1-258">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-259" value="" style="endArrow=classic;html=1;rounded=0;fontSize=6;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.999;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G2stVCMQUNgM3_AraCT1-260" target="G2stVCMQUNgM3_AraCT1-258" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-189.05999999999995" y="1019" as="sourcePoint" />
             <mxPoint x="-139.05999999999995" y="969" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G2stVCMQUNgM3_AraCT1-323" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;entryX=0.499;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="G2stVCMQUNgM3_AraCT1-92">
+        <mxCell id="G2stVCMQUNgM3_AraCT1-323" value="&lt;font style=&quot;font-size: 12px&quot;&gt;вернуться в меню&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;fontSize=6;entryX=0.499;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="G2stVCMQUNgM3_AraCT1-92" edge="1">
           <mxGeometry x="-0.0286" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="1133" as="sourcePoint" />
             <mxPoint x="-167.55" y="1130" as="targetPoint" />
